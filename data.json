@@ -1,0 +1,24 @@
+{
+  "monthLocations": [
+    {"location":"Pune","hrsheet_qty":938.58,"hrsheet_price":57254020,"hrsheet_avg":61000.68,"chsheet_qty":999.117,"chsheet_price":61232299,"chsheet_avg":61286.41,"chcoil_qty":0,"chcoil_price":0,"hrcoil_qty":2464.854,"hrcoil_price":149916931.5,"hrcoil_avg":60821.83,"hrslits_qty":0,"hrslits_price":0,"hrslits_avg":0,"total_qty":4402.551,"total_price":268403250.5,"total_avg":60965.39},
+    {"location":"Bangalore","hrsheet_qty":2237.325,"hrsheet_price":135090364,"hrsheet_avg":60380.30,"chsheet_qty":336.68,"chsheet_price":20791360,"chsheet_avg":61754.07,"chcoil_qty":0,"chcoil_price":0,"hrcoil_qty":761.82,"hrcoil_price":46296496,"hrcoil_avg":60770.91,"hrslits_qty":0,"hrslits_price":0,"hrslits_avg":0,"total_qty":3335.825,"total_price":202178220,"total_avg":60608.16},
+    {"location":"Ghaziabad","hrsheet_qty":1186.53,"hrsheet_price":71755587.5,"hrsheet_avg":60475.16,"chsheet_qty":443.62,"chsheet_price":27418032.5,"chsheet_avg":61805.22,"chcoil_qty":0,"chcoil_price":0,"hrcoil_qty":1840.956,"hrcoil_price":113268672.3,"hrcoil_avg":61527.09,"hrslits_qty":0,"hrslits_price":0,"hrslits_avg":0,"total_qty":3471.106,"total_price":212442292.3,"total_avg":61203.06},
+    {"location":"Raipur","hrsheet_qty":1869.61,"hrsheet_price":107343080.5,"hrsheet_avg":57414.69,"chsheet_qty":685.75,"chsheet_price":40796087,"chsheet_avg":59491.20,"chcoil_qty":0,"chcoil_price":0,"hrcoil_qty":1117.08,"hrcoil_price":65081560,"hrcoil_avg":58260.43,"hrslits_qty":0,"hrslits_price":0,"hrslits_avg":0,"total_qty":3672.44,"total_price":213220727.5,"total_avg":58059.69},
+    {"location":"Rajasthan","hrsheet_qty":96.586,"hrsheet_price":5891746,"hrsheet_avg":61000,"chsheet_qty":20.028,"chsheet_price":1261764,"chsheet_avg":63000,"chcoil_qty":0,"chcoil_price":0,"hrcoil_qty":1108.94,"hrcoil_price":67208968,"hrcoil_avg":60606.50,"hrslits_qty":0,"hrslits_price":0,"hrslits_avg":0,"total_qty":1225.554,"total_price":74362478,"total_avg":60676.62}
+  ],
+  "monthTotal": {"hrsheet_qty":6328.631,"chsheet_qty":2485.195,"hrcoil_qty":7293.65,"total_qty":16107.476,"total_price":970606968.3,"total_avg":60258.17},
+  "feed": [
+    {"location":"Pune","hrsheet":939,"hrsheet_avg":61001,"chsheet":999,"chsheet_avg":61286,"hrcoil":2465,"hrcoil_avg":60822,"total":4403,"total_avg":60965,"yesterday":716,"yesterday_avg":60921,"stock":5334,"transit":5500},
+    {"location":"Bangalore","hrsheet":2237,"hrsheet_avg":60380,"chsheet":337,"chsheet_avg":61754,"hrcoil":762,"hrcoil_avg":60771,"total":3336,"total_avg":60608,"yesterday":349,"yesterday_avg":61246,"stock":6021,"transit":2800},
+    {"location":"Ghaziabad","hrsheet":1187,"hrsheet_avg":60475,"chsheet":444,"chsheet_avg":61805,"hrcoil":1841,"hrcoil_avg":61527,"total":3471,"total_avg":61203,"yesterday":339,"yesterday_avg":62273,"stock":6877,"transit":3500},
+    {"location":"Raipur","hrsheet":1870,"hrsheet_avg":57415,"chsheet":686,"chsheet_avg":59491,"hrcoil":1117,"hrcoil_avg":58260,"total":3672,"total_avg":58060,"yesterday":191,"yesterday_avg":60158,"stock":5489,"transit":8000},
+    {"location":"Jaipur","hrsheet":97,"hrsheet_avg":61000,"chsheet":20,"chsheet_avg":63000,"hrcoil":1109,"hrcoil_avg":60606,"total":1226,"total_avg":60677,"yesterday":200,"yesterday_avg":61106,"stock":2497,"transit":3500}
+  ],
+  "feedTotal": {"hrsheet":6329,"chsheet":2485,"hrcoil":7294,"total":16107,"total_avg":60258,"yesterday":1796,"yesterday_avg":61179,"stock":26219,"transit":23300},
+  "b2b": {"qty":1080,"avg":59820},
+  "rejection": {"qty":null,"avg":null},
+  "totalSalesAllChannels": 17187,
+  "sheetTitle": "SG MART Sales 1-9 September 2026",
+  "lastUpdated": "10 Sep 2026, 12:44 PM IST (seed — awaiting first Action run)",
+  "lastUpdatedIso": "2026-09-10T07:14:00+00:00"
+}
