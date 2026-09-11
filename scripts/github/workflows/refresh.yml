@@ -1,0 +1,36 @@
+name: Refresh dashboard data
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # every 15 minutes — adjust as needed
+  workflow_dispatch: {}       # lets you click "Run workflow" manually anytime
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch sheet and rebuild data.json
+        env:
+          SHEET_CSV_URL: ${{ vars.SHEET_CSV_URL }}
+        run: python scripts/fetch_data.py
+
+      - name: Commit data.json if it changed
+        run: |
+          git config user.name "dashboard-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if ! git diff --quiet -- data.json; then
+            git add data.json
+            git commit -m "Auto-refresh data.json"
+            git push
+          else
+            echo "No changes — skipping commit."
+          fi
