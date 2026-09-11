@@ -112,7 +112,7 @@
   "feed": [
     {
       "location": "Pune",
-      "hrsheet": 939.0,
+      "hrsheet": 1113.0,
       "hrsheet_avg": 61001.0,
       "chsheet": 999.0,
       "chsheet_avg": 61286.0,
@@ -207,6 +207,6 @@
   },
   "totalSalesAllChannels": null,
   "sheetTitle": "SG MART Sales 1-9 September 2026",
-  "lastUpdated": "11 Sep 2026, 01:05 PM IST",
-  "lastUpdatedIso": "2026-09-11T07:35:57.947093+00:00"
+  "lastUpdated": "11 Sep 2026, 01:20 PM IST",
+  "lastUpdatedIso": "2026-09-11T07:50:58.511137+00:00"
 }
